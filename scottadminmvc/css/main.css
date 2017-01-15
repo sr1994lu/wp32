@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/**
+ * WP32 03/13
+ */
+
+table {
+  border-collapse: collapse;
+}
+
+table th {
+  border: solid 1px black;
+}
+
+table td {
+  border: solid 1px black;
+}
+
+nav {
+  margin-left: 0;
+}
+
+nav ul {
+  padding-left: 0;
+}
+
+nav ul .current {
+  color: red;
+}
+
+nav ul li {
+  display   : inline;
+  list-style: none;
+}
+
+nav ul li:before {
+  content: " > ";
+}
+
+nav ul li:first-child:before {
+  content: "";
+}
+
+.submit {
+  text-align: center;
+}
+
+.required {
+  color    : red;
+  font-size: 12px;
+}
+
+#errorMsg {
+  width  : 400px;
+  margin : 20px;
+  padding: 10px;
+  border : solid 1px orange;
+  color  : red;
+}
